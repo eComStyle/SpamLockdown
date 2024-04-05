@@ -1,0 +1,32 @@
+{
+    "name": "ecs/spamlockdown",
+    "description": "SpamLockdown",
+    "type": "oxideshop-module",
+    "keywords": [
+        "captcha",
+        "spam",
+        "junk"
+    ],
+    "homepage": "https://ecomstyle.de",
+    "version": "1.0.0",
+    "license": [
+        "GPL-3.0-only"
+    ],
+    "authors": [
+        {
+            "name": "Josef A. Puckl | eComStyle.de",
+            "email": "info@ecomstyle.de",
+            "role": "Developer"
+        }
+    ],
+    "extra": {
+        "oxideshop": {
+            "target-directory": "ecs/SpamLockdown"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Ecs\\SpamLockdown\\": "../../../source/modules/ecs/SpamLockdown"
+        }
+    }
+}
